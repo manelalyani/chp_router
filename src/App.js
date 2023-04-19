@@ -61,8 +61,8 @@ const App = () => {
   return (
     <div className="app">     
     <Routes>
-        <Route
-        />
+        <Route path="/" element={<MovieCard />} />
+          <Route path="/MovieList" element={<MovieList />} />
         <Route  />
 
       <Filter
